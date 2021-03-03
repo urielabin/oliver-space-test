@@ -19,10 +19,10 @@ $ npm install
 
 The tests are written using *WebdriverIO*, the spec files are under the `test/specs/` folder and the commands used for the actions over the page elements are under `test/pages/**.page.ts`.
 
-All the test data user to fill the different forms is inside the `test/data/` folder.
+All the test data used to fill the different forms is inside the `test/data/` folder.
 
 ## Test Execution
-The tests are configured to be executed in using the chromedriver service, so is necessary to have installed the latest Chrome version in the local machine.
+The tests are configured to be executed using the chromedriver service, so is necessary to have installed the latest Chrome version in the local machine.
 
 Execute tests by command line:
 
