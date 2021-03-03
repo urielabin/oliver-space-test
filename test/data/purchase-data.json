@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "cardNumber": "000000000000000",
+    "expDate": "1221",
+    "cvc": "000"
+  },
+  "delivery": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "phoneNumber": "415-701-2323",
+    "zipCode": "94114",
+    "email": "uriel.abin@gmail.com",
+    "password": "1234567890",
+    "address": "2261 Market Street",
+    "city": "San Francisco",
+    "dayIndex": 0,
+    "state": "CA"
+  },
+  "product": {
+    "itemsToAdd": 2,
+    "productIndex": 0
+  }
+}

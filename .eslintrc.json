@@ -1,0 +1,8 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier", "wdio"],
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:wdio/recommended", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}

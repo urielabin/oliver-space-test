@@ -1,0 +1,23 @@
+We are asking you to implement an automated test suite for a critical path on the https://oliver.space website: the purchase flow. Specifically, starting from the products page, adding one or more products to the shopping cart, editing the shopping cart, and checking out. Since actually checking out requires a credit card charge, please stop before hitting the purchase button.
+
+
+Please take a few minutes to look at this flow and identify the most important things to test. We are looking for just a few test cases that are the highest priority, in your opinion. We are not asking for a test suite with comprehensive coverage. Once you have identified the test cases you want to focus on, please document them and implement automated tests for them. 
+
+
+Please limit yourself to no more than 3 hours of work. We don’t want to take up too much of your time, and we are not expecting perfection.
+
+
+We are looking for 2 deliverables:
+
+The description of test cases you are covering. This can be in freeform text or any format you choose. 
+
+The code implementing the test cases. This can be written to use any programming languages and tools you choose, just please include instructions for running it. 
+
+
+We will evaluate your work on the following criteria:
+
+The choice and prioritization of the test cases.
+
+Resilience of your implementation to slow page response times, DOM structure changes, etc.
+
+Your coding style: modularity, reusability, readability.

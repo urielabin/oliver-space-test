@@ -1,0 +1,27 @@
+{
+  "name": "oliver-space-test",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix test/**/*.ts",
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "@wdio/cli": "^7.0.9",
+    "@wdio/local-runner": "^7.0.9",
+    "@wdio/mocha-framework": "^7.0.7",
+    "@wdio/spec-reporter": "^7.0.7",
+    "@wdio/sync": "^7.0.9",
+    "chromedriver": "^88.0.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-wdio": "^7.0.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
